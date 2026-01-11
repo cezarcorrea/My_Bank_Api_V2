@@ -1,6 +1,6 @@
 📁 ESTRUTURA FINAL DO PROJETO
 ============================
-
+```
 My_Bank_Api/
 │
 ├── 📄 Documentação (4 NOVOS)
@@ -56,12 +56,12 @@ My_Bank_Api/
         ├── auth.py                        ✏️ +refresh_token, expires_in
         ├── account.py                     (sem mudanças)
         └── transaction.py                 (sem mudanças)
-
+```
 ---
 
 📊 RESUMO DE MUDANÇAS
 ====================
-
+```
 NOVOS ARQUIVOS: 5
   ✨ README.md
   ✨ MELHORIAS_RESUMO.md
@@ -85,7 +85,7 @@ ARQUIVOS MODIFICADOS: 13
   ✏️ alembic/versions/ (1 nova migration)
 
 TOTAL: 18 mudanças
-
+```
 ---
 
 📝 MELHORIAS POR ARQUIVO
@@ -198,7 +198,7 @@ alembic/versions/ (NOVA MIGRATION)
 
 🎯 ROTAS IMPLEMENTADAS
 ======================
-
+```
 NOVAS:
   ✨ POST /auth/refresh
      - Renovar access token
@@ -229,12 +229,12 @@ MELHORADAS:
   ✏️ POST /transactions/
      - Logging
      - Validações estendidas
-
+```
 ---
 
 🔐 SEGURANÇA IMPLEMENTADA
 =========================
-
+```
 AUTENTICAÇÃO:
   ✅ JWT Secret em .env
   ✅ Access tokens: 15 minutos
@@ -253,12 +253,12 @@ PROTEÇÃO:
   ✅ Logging de todas operações
   ✅ Tratamento de erros seguro
   ✅ HTTP status codes corretos
-
+```
 ---
 
 ⚡ PERFORMANCE IMPLEMENTADA
 ===========================
-
+```
 ÍNDICES:
   ✅ ix_transactions_account_id
   ✅ ix_transactions_timestamp
@@ -272,7 +272,7 @@ PAGINAÇÃO:
 LOGGING EFICIENTE:
   ✅ Estruturado (sem print())
   ✅ Níveis apropriados
-
+```
 ---
 
 📚 DOCUMENTAÇÃO
